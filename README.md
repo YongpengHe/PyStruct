@@ -1,18 +1,47 @@
-# PyStruct - Fast 3D Structural Analysis Tool
+# PyStruct: Fast 3D Structural Analysis Tool
+
+## Software Overview
+-------------------
+### High-Performance Structural Analysis Framework
+
+**PyStruct** is a high-performance Python-based tool for parametric modeling and structural analysis, specifically optimized for 3D beam elements. The tool combines efficient numerical computations with interactive visualization capabilities.
+
+### Key Features
+- High-performance computing
+- Parametric modeling
+- Advanced structural analysis
+- 3D beam element optimization
+- Interactive visualization
+</div>
+
+## Research Publication
+-------------------
+### Title
+**"Topology optimisation of double-layer grid structures with stability constraints"**
+
+### Key Innovations
+- Density-based topology optimization methodology
+- Stability constraint integration
+- Geometric nonlinear analysis capabilities
+- Multi-configuration structural optimization
+
+### Research Highlights
+- Strategic configurations of in-plane and out-of-plane enhancements
+- Local material constraints for diverse design solutions
+- Geometric nonlinear analysis under varying loads
+- Versatile application across different structural geometries
+
+## Modelling and Analysis Demonstrations
+-------------------
+### Benchmark Structure Analysis
+![Benchmark Structure](Demo/BenchmarkStructure.png)
+*Modelling and Buckling of the Benchmark Structure*
+
+### Optimal Structure Analysis
+![Optimal Structure](Demo/OptimalStructure.png)
+*Modelling and Buckling of the Optimal Structure*
 
 PyStruct is a high-performance Python-based tool for parametric modeling and structural analysis, specifically optimized for 3D beam elements. The tool combines efficient numerical computations with interactive visualization capabilities.
-
-> **Research Publication**: 
-> 
-> "Topology optimisation of double-layer grid structures with stability constraints"
->
-> This software implements topology optimization for double-layer grid structures with:
-> - Density-based optimization methodology
-> - Stability constraint handling
-> - Geometric nonlinear analysis
-> - Support for various structural configurations
->
-> The tool was developed to implement and validate the optimization methodology presented in the research.
 
 ## Key Features
 
@@ -31,7 +60,6 @@ PyStruct is a high-performance Python-based tool for parametric modeling and str
   - Critical load factor computation
   - Buckling mode shapes visualization
   - Load combination effects
-  - Geometric nonlinearity consideration
   - Interactive buckling mode animation
 - Stress and strain calculations
 - Internal force diagrams (shear, moment, axial, torsion)
@@ -159,16 +187,6 @@ for i, factor in enumerate(buckling_results['load_factors'], 1):
 # Visualize buckling modes
 model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ```
-
-## Demo Cases
-
-### Benchmark Structure Analysis
-![Benchmark Structure](Demo/BenchmarkStructure.png)
-*Modelling and Buckling of Benchmark Structure*
-
-### Optimal Structure Analysis
-![Optimal Structure](Demo/OptimalStructure.png)
-*Modelling and Buckling of Optimal Structure*
 
 ## Contributing
 Contributions are welcome! Please read our contributing guidelines and code of conduct.
