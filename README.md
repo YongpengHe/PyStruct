@@ -91,42 +91,6 @@ PyStruct is a high-performance Python-based tool for parametric modeling and str
    - Model persistence
    - Format conversion
 
-## Implementation Plan
-
-### Phase 1: Core Framework
-1. Set up project structure and dependencies
-2. Implement basic geometry classes
-3. Create fundamental matrix operations
-4. Develop basic beam element formulation
-
-### Phase 2: Analysis Engine
-1. Implement global stiffness matrix assembly
-2. Develop AMG solver integration
-3. Add basic load case handling
-4. Create displacement solver
-
-### Phase 3: Visualization
-1. Set up VTK environment
-2. Implement basic 3D rendering
-3. Add interactive model manipulation
-4. Create results visualization
-
-### Phase 4: Optimization
-1. Implement sparse matrix operations
-2. Optimize memory usage
-3. Add parallel computing capabilities
-4. Performance testing and tuning
-
-### Phase 5: Advanced Features
-1. Add advanced analysis types
-   - Implement eigenvalue buckling analysis
-   - Add geometric stiffness matrix computation
-   - Develop buckling mode shape extraction
-   - Create buckling load factor solver
-2. Implement additional element types
-3. Create reporting system
-4. Add export capabilities
-
 ## Dependencies
 - NumPy: Numerical computations
 - SciPy: Scientific computing and sparse matrix operations
@@ -199,11 +163,11 @@ model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ## Demo Cases
 
 ### Benchmark Structure Analysis
-![Benchmark Structure](Demo/FullStruct.jpg)
+![Benchmark Structure](Demo/BenchmarkStructure.jpg)
 *Modelling and Buckling of Benchmark Structure*
 
 ### Optimal Structure Analysis
-![Optimal Structure](Demo/FullStruct_02.jpg)
+![Optimal Structure](Demo/OptimalStructure.jpg)
 *Modelling and Buckling of Optimal Structure*
 
 ## Contributing
