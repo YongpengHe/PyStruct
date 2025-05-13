@@ -5,25 +5,24 @@
 * binary
 
 # Explicitly track these files/folders
+Demo/BenchmarkStructure.png binary
+Demo/OptimalStructure.png binary
 README.md text
-Demo/FullStruct.jpg binary
-Demo/FullStruct_02.jpg binary
 .gitattributes text
 
-# Ignore everything else
-* binary
-* -text
-* linguist-vendored
+# Track specific Python files
+pystruct/__init__.py text
+tests/** text
 
-# Ignore specific directories and their contents
-pystruct/** binary
-tests/** binary
-examples/** binary
-.idea/** binary
-__pycache__/** binary
+# Python-specific settings
+*.py text diff=python
 *.pyc binary
 *.pyo binary
 *.pyd binary
+
+# Ignore everything else
+pystruct/* binary
+!pystruct/__init__.py
 *.so binary
 *.dll binary
 *.dylib binary
@@ -33,3 +32,5 @@ dist/** binary
 build/** binary
 *.log binary
 *.cache binary
+.idea/** binary
+__pycache__/** binary
