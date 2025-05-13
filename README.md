@@ -17,7 +17,7 @@
 ## Research Publication
 -------------------
 ### Title
-**"Topology optimisation of double-layer grid structures with stability constraints"**
+**Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
 
 ### Key Innovations
 - Density-based topology optimization methodology
