@@ -163,11 +163,11 @@ model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ## Demo Cases
 
 ### Benchmark Structure Analysis
-![Benchmark Structure](Demo/BenchmarkStructure.jpg)
+![Benchmark Structure](Demo/BenchmarkStructure.png)
 *Modelling and Buckling of Benchmark Structure*
 
 ### Optimal Structure Analysis
-![Optimal Structure](Demo/OptimalStructure.jpg)
+![Optimal Structure](Demo/OptimalStructure.png)
 *Modelling and Buckling of Optimal Structure*
 
 ## Contributing
