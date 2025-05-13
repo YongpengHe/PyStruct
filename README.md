@@ -196,108 +196,15 @@ for i, factor in enumerate(buckling_results['load_factors'], 1):
 model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ```
 
-### Combined Loading Buckling Analysis
-```python
-# Add combined loading case
-model.add_point_load(n2, Fy=-100000)  # Axial load
-model.add_point_load(n2, Fz=10000)    # Lateral load
-model.add_moment(n2, My=5000000)      # Bending moment
-
-# Run buckling analysis with combined loading
-buckling_results = model.analyze_buckling(
-    num_modes=2,
-    consider_geometric_nonlinearity=True
-)
-
-# Show interaction diagram
-model.plot_interaction_diagram()
-```
-
 ## Demo Cases
 
-### Case Study 1: Cold-formed Steel Built-up I-section Column
+### Benchmark Structure Analysis
+![Benchmark Structure](Demo/FullStruct.jpg)
+*Modelling and Buckling of Benchmark Structure*
 
-#### Full Structure Analysis
-![Full Structure](Demo/FullStruct.jpg)
-*Full structural model of the built-up I-section column*
-
-#### Component Analysis
-<div style="display: flex; justify-content: space-between;">
-    <div style="flex: 1; margin-right: 10px;">
-        <img src="Demo/TopChord.jpg" alt="Top Chord">
-        <p><em>Top chord analysis</em></p>
-    </div>
-    <div style="flex: 1; margin-right: 10px;">
-        <img src="Demo/Web.jpg" alt="Web">
-        <p><em>Web member analysis</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="Demo/BottomChord.jpg" alt="Bottom Chord">
-        <p><em>Bottom chord analysis</em></p>
-    </div>
-</div>
-
-#### Buckling Mode Analysis
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig1.jpg" alt="First Buckling Mode">
-        <p><em>First buckling mode</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig2.jpg" alt="Second Buckling Mode">
-        <p><em>Second buckling mode</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig3.jpg" alt="Third Buckling Mode">
-        <p><em>Third buckling mode</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig4.jpg" alt="Fourth Buckling Mode">
-        <p><em>Fourth buckling mode</em></p>
-    </div>
-</div>
-
-### Case Study 2: Modified Design Configuration
-
-#### Full Structure Analysis
-![Modified Full Structure](Demo/FullStruct_02.jpg)
-*Modified design configuration of the built-up I-section column*
-
-#### Component Analysis
-<div style="display: flex; justify-content: space-between;">
-    <div style="flex: 1; margin-right: 10px;">
-        <img src="Demo/TopChord_02.jpg" alt="Modified Top Chord">
-        <p><em>Modified top chord analysis</em></p>
-    </div>
-    <div style="flex: 1; margin-right: 10px;">
-        <img src="Demo/Web_02.jpg" alt="Modified Web">
-        <p><em>Modified web member analysis</em></p>
-    </div>
-    <div style="flex: 1;">
-        <img src="Demo/BottomChord_02.jpg" alt="Modified Bottom Chord">
-        <p><em>Modified bottom chord analysis</em></p>
-    </div>
-</div>
-
-#### Buckling Mode Analysis
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig1_02.jpg" alt="First Buckling Mode (Modified)">
-        <p><em>First buckling mode of modified design</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig2_02.jpg" alt="Second Buckling Mode (Modified)">
-        <p><em>Second buckling mode of modified design</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig3_02.jpg" alt="Third Buckling Mode (Modified)">
-        <p><em>Third buckling mode of modified design</em></p>
-    </div>
-    <div style="flex: 1; min-width: 45%; margin: 10px;">
-        <img src="Demo/Eig4_02.jpg" alt="Fourth Buckling Mode (Modified)">
-        <p><em>Fourth buckling mode of modified design</em></p>
-    </div>
-</div>
+### Optimal Structure Analysis
+![Optimal Structure](Demo/FullStruct_02.jpg)
+*Modelling and Buckling of Optimal Structure*
 
 ## Contributing
 Contributions are welcome! Please read our contributing guidelines and code of conduct.

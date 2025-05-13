@@ -6,7 +6,8 @@
 
 # Explicitly track these files/folders
 README.md text
-Demo/* binary
+Demo/FullStruct.jpg binary
+Demo/FullStruct_02.jpg binary
 .gitattributes text
 
 # Ignore everything else
