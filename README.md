@@ -181,9 +181,6 @@ This project builds upon established theoretical foundations and is inspired by 
 1. Cook, R.D., Malkus, D.S., Plesha, M.E., & Witt, R.J. (2001). Concepts and Applications of Finite Element Analysis (4th ed.). Wiley. ISBN: 978-0471356059
    - Beam element formulation and matrix methods
 
-2. Zienkiewicz, O.C., Taylor, R.L., & Zhu, J.Z. (2013). The Finite Element Method: Its Basis and Fundamentals. Butterworth-Heinemann. ISBN: 978-1856176330
-   - AMG solver implementation concepts
-
 
 ### Software Acknowledgments
 - VTK (Visualization Toolkit): Used for 3D visualization capabilities
