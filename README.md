@@ -188,9 +188,6 @@ for i, factor in enumerate(buckling_results['load_factors'], 1):
 model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ```
 
-## Contributing
-Contributions are welcome! Please read our contributing guidelines and code of conduct.
-
 ## Citations and Acknowledgments
 
 This project builds upon established theoretical foundations and is inspired by several existing works in the field of structural analysis. Key references include:
