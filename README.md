@@ -16,8 +16,7 @@
 
 ## Research Publication
 -------------------
-### Title
-**Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
+### Title： **Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
 
 ### Key Innovations
 - Density-based topology optimization methodology
@@ -33,15 +32,13 @@
 
 ## Modelling and Analysis Demonstrations
 -------------------
-### Benchmark Structure Analysis
+### Benchmark Structure
 ![Benchmark Structure](Demo/BenchmarkStructure.png)
 *Modelling and Buckling of the Benchmark Structure*
 
-### Optimal Structure Analysis
+### Optimal Structure
 ![Optimal Structure](Demo/OptimalStructure.png)
 *Modelling and Buckling of the Optimal Structure*
-
-PyStruct is a high-performance Python-based tool for parametric modeling and structural analysis, specifically optimized for 3D beam elements. The tool combines efficient numerical computations with interactive visualization capabilities.
 
 ## Key Features
 
