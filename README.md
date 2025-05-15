@@ -14,15 +14,10 @@
 - Interactive visualization
 </div>
 
-## Research Publication
+## Research Publications
 -------------------
-### Title： **Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
-
-### Key Innovations
-- Density-based topology optimization methodology
-- Stability constraint integration
-- Geometric nonlinear analysis capabilities
-- Multi-configuration structural optimization
+### Paper 1: **Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
+### Paper 2: **Enhancement layout optimization of grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Structures, 2024.**
 
 ### Research Highlights
 - Strategic configurations of in-plane and out-of-plane enhancements
@@ -41,6 +36,7 @@
 *Modelling and Buckling of the Optimal Structure*
 
 ## Key Features
+-------------------
 
 ### 1. Modeling Capabilities
 - Parametric 3D beam element modeling
@@ -79,6 +75,7 @@
 - Export capabilities (CAD formats, reports)
 
 ## Technical Architecture
+-------------------
 
 ### Core Components
 
@@ -117,6 +114,7 @@
    - Format conversion
 
 ## Dependencies
+-------------------
 - NumPy: Numerical computations
 - SciPy: Scientific computing and sparse matrix operations
 - Pandas: Data manipulation and analysis
@@ -125,11 +123,13 @@
 - PyQt/PySide: GUI framework (optional)
 
 ## Installation
+-------------------
 ```bash
 pip install -r requirements.txt
 ```
 
 ## Usage
+-------------------
 
 ### Basic Static Analysis
 ```python
@@ -186,6 +186,7 @@ model.show_buckling_modes(scale=50)  # Scale deformation for visibility
 ```
 
 ## Citations and Acknowledgments
+-------------------
 
 This project builds upon established theoretical foundations and is inspired by several existing works in the field of structural analysis. Key references include:
 
@@ -200,4 +201,5 @@ This project builds upon established theoretical foundations and is inspired by 
 - NumPy/SciPy: Core numerical computation libraries
 
 ## License
+-------------------
 This project is licensed under the MIT License - see the LICENSE file for details. 
