@@ -16,8 +16,8 @@
 
 ## Research Publications
 -------------------
-### Paper 1: **Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.**
-### Paper 2: **Enhancement layout optimization of grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Structures, 2024.**
+### Paper 1: **[Topology optimization of double-layer grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Journal of Constructional Steel Research, 2025.](https://www.sciencedirect.com/science/article/pii/S0143974X2500001X)**
+### Paper 2: **[Enhancement layout optimization of grid structures with stability constraints. Yongpeng He, Paul Shepherd, Jie Wang. Structures, 2024.](https://www.sciencedirect.com/science/article/pii/S2352012424010245)**
 
 ### Research Highlights
 - Strategic configurations of in-plane and out-of-plane enhancements
